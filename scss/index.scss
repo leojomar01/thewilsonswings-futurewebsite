@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
     font-family: sans-serif;
 }
 body{
@@ -106,7 +105,7 @@ main{
             }
             
             .fruit1,.sideFruitL,.sideFruitR{
-                transition: 1.5s;
+                transition: 2s;
                 position: absolute;
                 background-size: 100% auto;
                 background-repeat: no-repeat;
@@ -145,6 +144,8 @@ main{
                 width: 50vw;
                 height: 100vh;
                 padding: 10vh 0;
+                z-index: 999;
+
 
                 .title{
                     font-size: 20vh;
@@ -164,10 +165,11 @@ main{
                     mix-blend-mode: lighten;
                     background-color: white;
                     width: 10rem;
-                    z-index: 999;
                     &:hover{
                         cursor: pointer;
-                        color: red;
+                        color: white;
+                        background-color: transparent;
+                        border: .1rem solid white;
                     }
                 }
             }
@@ -387,10 +389,10 @@ main{
                 z-index: 5;
             }
             .fruit2{
-                width: 20vw;
-                height: 20vw;
+                width: 25vw;
+                height: 25vw;
                 right: 5vw;
-                top: 165vh;
+                top: 170vh;
             }
             .sideFruitL{
                 width: 0;
@@ -463,3 +465,6 @@ main{
         }
     }
 }
+
+
+

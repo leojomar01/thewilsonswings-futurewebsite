@@ -92,7 +92,7 @@ main .pages .menuPages .can, main .pages .menuPages .sideCanL, main .pages .menu
   background-repeat: no-repeat;
 }
 main .pages .menuPages .fruit1, main .pages .menuPages .sideFruitL, main .pages .menuPages .sideFruitR {
-  transition: 1.5s;
+  transition: 2s;
   position: absolute;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -129,6 +129,7 @@ main .pages .mainPages .right {
   width: 50vw;
   height: 100vh;
   padding: 10vh 0;
+  z-index: 999;
 }
 main .pages .mainPages .right .title {
   font-size: 20vh;
@@ -148,11 +149,12 @@ main .pages .mainPages .right .button {
   mix-blend-mode: lighten;
   background-color: white;
   width: 10rem;
-  z-index: 999;
 }
 main .pages .mainPages .right .button:hover {
   cursor: pointer;
-  color: red;
+  color: white;
+  background-color: transparent;
+  border: 0.1rem solid white;
 }
 main .pages .lastPages {
   display: flex;
@@ -338,10 +340,10 @@ main .pages .view2 .fruit1 {
   z-index: 5;
 }
 main .pages .view2 .fruit2 {
-  width: 20vw;
-  height: 20vw;
+  width: 25vw;
+  height: 25vw;
   right: 5vw;
-  top: 165vh;
+  top: 170vh;
 }
 main .pages .view2 .sideFruitL {
   width: 0;
