@@ -1,0 +1,238 @@
+.leaves{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+
+
+    .leaf{
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 2s;
+    }
+
+    .leaf1{
+        background-image: url('../images/leaf1.png');
+    }
+    .leaf2{
+        background-image: url('../images/leaf2.png');
+    }
+    .leaf3{
+        background-image: url('../images/leaf3.png');
+    }
+    .leaf4{
+        background-image: url('../images/leaf4.png');
+    }
+    .leaf5{
+        background-image: url('../images/leaf4.png');
+    }
+}
+
+.spriteLeaves{
+    .leaf1{
+        top: 15%;
+        left: 5%;
+        width: 200px;
+        height: 250px;
+        transform: rotate(-30deg);
+    }
+    .leaf2{
+        top: 65%;
+        left: 25%;
+        width: 150px;
+        height: 250px;
+        transform: rotate(80deg);
+    }
+
+    .leaf3{
+        top: 15%;
+        left: 75%;
+        width: 150px;
+        height: 150px;
+        transform: rotate(-60deg);
+    }
+    .leaf4{
+        top: 55%;
+        left: 80%;
+        width: 250px;
+        height: 250px;
+        transform: rotate(30deg);
+        z-index: -1;
+    }
+    .leaf5{
+        top: 15%;
+        left: 100%;
+        width: 50px;
+        height: 50px;
+        transform: rotate(206deg);
+    }
+}
+
+
+
+.liptonLeaves{
+    .leaf1{
+        top: 10%;
+        left: 25%;
+        width: 150px;
+        height: 150px;
+        transform: rotate(206deg);
+    }
+    .leaf2{
+        top: 60%;
+        left: 85%;
+        width: 250px;
+        height: 550px;
+        transform: rotate(-76deg);
+    }
+
+    .leaf3{
+        top: 85%;
+        left: 15%;
+        width: 250px;
+        height: 250px;
+        transform: rotate(16deg);
+
+    }
+    .leaf4{
+        top: 5%;
+        left: 80%;
+        width: 250px;
+        height: 250px;
+        transform: rotate(-206deg);
+
+    }
+    .leaf5{
+        top: 15%;
+        left: 100%;
+        width: 50px;
+        height: 50px;
+        transform: rotate(-36deg);
+    }
+}
+
+.fantaLeaves{
+    .leaf1{
+        top: 85%;
+        left: 65%;
+        width: 250px;
+        height: 150px;
+        transform: rotate(-416deg);
+    }
+    .leaf2{
+        top: 60%;
+        left: 25%;
+        width: 150px;
+        height: 250px;
+        transform: rotate(136deg);
+
+    }
+
+    .leaf3{
+        top: 15%;
+        left: 5%;
+        width: 250px;
+        height: 250px;
+        transform: rotate(0);
+
+    }
+    .leaf4{
+        top: 155%;
+        left: 70%;
+        width: 350px;
+        height: 250px;
+        
+    }
+    .leaf5{
+        top: 15%;
+        left: 70%;
+        width: 150px;
+        height: 150px;
+        transform: rotate(-36deg);
+
+    }
+}
+
+.infoPage{
+    .leaf1{
+        top: -10%;
+        left:25%;
+        width: 250px;
+        height: 150px;
+        transform: rotate(36deg);
+    }
+    .leaf2{
+        top: 25%;
+        left: -6%;
+        width: 100px;
+        height: 150px;
+        transform: rotate(196deg);
+
+    }
+
+    .leaf3{
+        top: 65%;
+        left: -5%;
+        width: 200px;
+        height: 200px;
+        transform: rotate(-90deg);
+
+    }
+    .leaf4{
+        top: 155%;
+        left: 70%;
+        width: 350px;
+        height: 250px;
+        
+    }
+    .leaf5{
+        top: 15%;
+        left: 170%;
+        width: 150px;
+        height: 150px;
+        transform: rotate(-36deg);
+
+    }
+}
+
+.lastPage{
+    .leaf1{
+        top: 90%;
+        left:-10%;
+        width: 250px;
+        height: 150px;
+        transform: rotate(-50deg);
+    }
+    .leaf2{
+        top: -10%;
+        left: 16%;
+        width: 100px;
+        height: 150px;
+        transform: rotate(120deg);
+    }
+
+    .leaf3{
+        top: -10%;
+        left: 90%;
+        width: 200px;
+        height: 200px;
+        transform: rotate(180deg);
+
+    }
+    .leaf4{
+        top: 155%;
+        left: 70%;
+        width: 350px;
+        height: 250px;
+        
+    }
+    .leaf5{
+        top: 15%;
+        left: 170%;
+        width: 150px;
+        height: 150px;
+        transform: rotate(-36deg);
+
+    }
+}
